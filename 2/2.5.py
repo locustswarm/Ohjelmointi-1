@@ -11,4 +11,4 @@ kg = int(massa/1000)
 g = massa - kg * 1000
 print(massa)
 print(f'Massa nykymittojen mukaan:\n'
-      f'{int(massa/1000)} kilogrammaa ja {g:.2f} grammaa')
+      f'{kg} kilogrammaa ja {g:.2f} grammaa')
